@@ -45,7 +45,9 @@ func main() {
 
 	// CountConstruct
 	fmt.Println(countConstructWithMemo("abcdef", []string{"ab","abc","cd","def","ef","ab"}, map[string]int{}))
-	fmt.Println(countConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}, map[string]int{}))
+	fmt.Println(countConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}, map[string]int{}))
+	fmt.Println(countConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}, map[string]int{}))
 	fmt.Println(countConstruct("abcdef", []string{"ab","abc","cd","def","ef","ab"}))
-	fmt.Println(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}))
+	fmt.Println(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}))
+	fmt.Println(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}))
 }
