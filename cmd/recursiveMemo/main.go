@@ -1,10 +1,10 @@
 package main
 
-// https://www.youtube.com/watch?v=oBt53YbR9Kk&list=WL&index=13
-
 import (
 	"fmt"
 )
+
+// https://www.youtube.com/watch?v=oBt53YbR9Kk&list=WL&index=13
 
 func main() {
 	// Fibonacci
@@ -34,12 +34,18 @@ func main() {
 	// fmt.Println(bestSum(35, []int{1,2,5,10}))
 
 	// CanConstruct
-	fmt.Println(canConstructWithMemo("abcdef", []string{"ab","abc","cd","def","abcd"}, map[string]bool{}))
-	fmt.Println(canConstructWithMemo("skateboard", []string{"bo","rd","ate","t","ska","sk","boar"}, map[string]bool{}))
-	fmt.Println(canConstructWithMemo("enterapotentpot", []string{"a","p","ent","enter","ot","o","t"}, map[string]bool{}))
-	fmt.Println(canConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}, map[string]bool{}))
-	fmt.Println(canConstruct("abcdef", []string{"ab","abc","cd","def","abcd"}))
-	fmt.Println(canConstruct("skateboard", []string{"bo","rd","ate","t","ska","sk","boar"}))
-	fmt.Println(canConstruct("enterapotentpot", []string{"a","p","ent","enter","ot","o","t"}))
-	fmt.Println(canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}))
+	// fmt.Println(canConstructWithMemo("abcdef", []string{"ab","abc","cd","def","abcd"}, map[string]bool{}))
+	// fmt.Println(canConstructWithMemo("skateboard", []string{"bo","rd","ate","t","ska","sk","boar"}, map[string]bool{}))
+	// fmt.Println(canConstructWithMemo("enterapotentpot", []string{"a","p","ent","enter","ot","o","t"}, map[string]bool{}))
+	// fmt.Println(canConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}, map[string]bool{}))
+	// fmt.Println(canConstruct("abcdef", []string{"ab","abc","cd","def","abcd"}))
+	// fmt.Println(canConstruct("skateboard", []string{"bo","rd","ate","t","ska","sk","boar"}))
+	// fmt.Println(canConstruct("enterapotentpot", []string{"a","p","ent","enter","ot","o","t"}))
+	// fmt.Println(canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}))
+
+	// CountConstruct
+	fmt.Println(countConstructWithMemo("abcdef", []string{"ab","abc","cd","def","ef","ab"}, map[string]int{}))
+	fmt.Println(countConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}, map[string]int{}))
+	fmt.Println(countConstruct("abcdef", []string{"ab","abc","cd","def","ef","ab"}))
+	fmt.Println(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}))
 }
