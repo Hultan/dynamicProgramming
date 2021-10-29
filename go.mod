@@ -1,5 +1,6 @@
-module github.com/hultan70/test
+module github.com/hultan70/recursiveMemo
 
-go 1.15
+go 1.17
 
-require github.com/gotk3/gotk3 v0.6.1
+require (
+)
