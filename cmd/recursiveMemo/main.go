@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // https://www.youtube.com/watch?v=oBt53YbR9Kk&list=WL&index=13
 
 func main() {
@@ -44,10 +40,21 @@ func main() {
 	// fmt.Println(canConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}))
 
 	// CountConstruct
-	fmt.Println(countConstructWithMemo("abcdef", []string{"ab","abc","cd","def","ef","ab"}, map[string]int{}))
-	fmt.Println(countConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}, map[string]int{}))
-	fmt.Println(countConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}, map[string]int{}))
-	fmt.Println(countConstruct("abcdef", []string{"ab","abc","cd","def","ef","ab"}))
-	fmt.Println(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}))
-	fmt.Println(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}))
+	// fmt.Println(countConstructWithMemo("abcdef", []string{"ab","abc","cd","def","ef","ab"}, map[string]int{}))
+	// fmt.Println(countConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}, map[string]int{}))
+	// fmt.Println(countConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}, map[string]int{}))
+	// fmt.Println(countConstruct("abcdef", []string{"ab","abc","cd","def","ef","ab"}))
+	// fmt.Println(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeee", []string{"e","ee","eee","eeee","eeeee"}))
+	// fmt.Println(countConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}))
+
+	// AllConstruct
+	// fmt.Println(allConstructWithMemo("purple", []string{"purp","p","ur","le","purpl"},map[string][][]string{}))
+	// fmt.Println(allConstructWithMemo("abcdef", []string{"ab","abc","cd","def","abcd","ef","c"},map[string][][]string{}))
+	// fmt.Println(allConstructWithMemo("skateboard", []string{"bo","rd","ate","t","ska","sk","boar"},map[string][][]string{}))
+	// fmt.Println(allConstructWithMemo("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"},map[string][][]string{}))
+	// fmt.Println(allConstructWithMemo("eeeeeeee", []string{"e","ee","eee","eeee","eeeee"},map[string][][]string{}))
+	// fmt.Println(allConstruct("purple", []string{"purp","p","ur","le","purpl"}))
+	// fmt.Println(allConstruct("abcdef", []string{"ab","abc","cd","def","abcd","ef","c"}))
+	// fmt.Println(allConstruct("skateboard", []string{"bo","rd","ate","t","ska","sk","boar"}))
+	// fmt.Println(allConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}))
 }
