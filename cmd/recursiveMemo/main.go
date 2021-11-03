@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 // https://www.youtube.com/watch?v=oBt53YbR9Kk&list=WL&index=13
 
 func main() {
@@ -57,4 +61,10 @@ func main() {
 	// fmt.Println(allConstruct("abcdef", []string{"ab","abc","cd","def","abcd","ef","c"}))
 	// fmt.Println(allConstruct("skateboard", []string{"bo","rd","ate","t","ska","sk","boar"}))
 	// fmt.Println(allConstruct("eeeeeeeeeeeeeeeeeeeeeeeeeeeef", []string{"e","ee","eee","eeee","eeeee"}))
+
+	// Fibonacci (tabulation)
+	// 93 is the largest fibonacci number that can fit in an uint (64-bit)
+	for i := 0; i <= 93; i++ {
+		fmt.Printf("%3d : %d\n", i, fibTab(i))
+	}
 }
