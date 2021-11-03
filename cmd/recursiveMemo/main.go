@@ -64,7 +64,10 @@ func main() {
 
 	// Fibonacci (tabulation)
 	// 93 is the largest fibonacci number that can fit in an uint (64-bit)
-	for i := 0; i <= 93; i++ {
-		fmt.Printf("%3d : %d\n", i, fibTab(i))
-	}
+	// for i := 0; i <= 93; i++ {
+	// 	fmt.Printf("%3d : %d\n", i, fibTab(i))
+	// }
+
+	// Travel (tabulation)
+	fmt.Println(travelTab(18,18))
 }
