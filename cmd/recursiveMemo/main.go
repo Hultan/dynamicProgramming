@@ -69,5 +69,12 @@ func main() {
 	// }
 
 	// Travel (tabulation)
-	fmt.Println(travelTab(18,18))
+	// fmt.Println(travelTab(18,18))
+
+	// CanSum (tabulation)
+	fmt.Println(canSumTab(7, []int{5, 3, 4}))
+	fmt.Println(canSumTab(7, []int{5, 3, 4, 7}))
+	fmt.Println(canSumTab(7, []int{2, 4}))
+	fmt.Println(canSumTab(8, []int{2, 3, 5}))
+	fmt.Println(canSumTab(300, []int{7, 14}))
 }
